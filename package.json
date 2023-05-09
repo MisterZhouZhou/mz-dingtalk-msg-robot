@@ -1,0 +1,38 @@
+{
+  "name": "dingtalk-msg-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "*.d.ts",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MisterZhouZhou/mz-dingtalk-robot"
+  },
+  "keywords": [
+    "dingtalk-robot",
+    "tools"
+  ],
+  "author": "misterzhou <16619930394@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
